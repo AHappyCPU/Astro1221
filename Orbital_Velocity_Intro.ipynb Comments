@@ -1,0 +1,9 @@
+"print(v_orbital.si)" # This translates the result of the orbital velocity into a standardized form 
+
+  "v_orbital = np.sqrt((ac.G *u.Msun) / u.au)" # This equation defines the orbital velocity of any body in relation to a much larger mass
+
+"ac.G.si" # Proof of concept that our libraries contain the necessary astronomical data.
+
+ "print(v_orbital.si, v_orbital.to (u.km/ u.s))" # This converts the orbital velocity into km/s
+
+  "print(v_orbital.si, v_orbital.to (u.km/ u.s), v_orbital.to(ac.c))" # This converts further into ratios of the speed of light 
